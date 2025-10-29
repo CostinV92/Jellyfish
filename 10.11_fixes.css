@@ -97,11 +97,26 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
   box-shadow: none !important;
 }
 
-/* Buttons */
+
+/* Bigger and centered server buttons */
+.MuiStack-root.css-11r6nok {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+/* Server Buttons */
 .MuiStack-root.css-11r6nok button:nth-child(1) {
   background: rebeccapurple !important;
   color: white !important;
 }
+
+.css-jqp64h {
+  background: rebeccapurple !important;
+  color: white !important;
+  border: none !important;
+}
+
 .MuiStack-root.css-11r6nok button:nth-child(2) {
   background: #ff9800 !important;
   color: white !important;
@@ -118,14 +133,14 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
 
 /* Links */
 .css-c4z1po {
-    color: var(--primary-accent-color);
-    --Link-underlineColor: var(--primary-accent-color);
+    color: var(--primary-accent-color) !important;
+    --Link-underlineColor: var(--primary-accent-color) !important;
 }
 
 /* save button and help button*/
 .css-ybuz3k, .fab, .raised {
-    color: var(--text-color);
-    background: var(--primary-accent-color);
+    color: var(--text-color) !important;
+    background: var(--primary-accent-color) !important;
 }
 
 /* Switches */
@@ -184,3 +199,34 @@ span.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-si
 .MuiBox-root.css-lmbv6g {
     color: var(--primary-accent-color);
 }
+
+/* Dashboard Theme Update Date */
+.css-1787okl::after {
+    content: "Theme last updated on " var(--theme-updated-on, "..........");
+    display: block;
+    background-color: var(--alt-accent-color);
+    border-radius: var(--rounded-cards);
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    margin: 10px 0px;
+}
+
+
+/* Progress track */
+.MuiLinearProgress-root {
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--secondary-background-transparent) !important;
+}
+.MuiLinearProgress-bar {
+  background: var(--primary-accent-color) !important;
+  border-radius: inherit;
+}
+.css-lmbv6g .MuiTypography-root {
+  font-weight: 600;
+}
+
+
