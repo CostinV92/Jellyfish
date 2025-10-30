@@ -159,11 +159,21 @@
 
 /* ----------- Icon buttons styling ----------- */
 
-.play-button, .detail-button, .favorite-button {
+.play-button, .detail-button, .favorite-button, .slide .watchlist-button {
   color: #ffffff !important;
   transition: all 0.3s ease !important;
   backdrop-filter: blur(var(--blur)) !important;
 }
+
+.detail-button, .favorite-button, .slide .watchlist-button  {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Hide Favorite button if Watchlist button is present */
+.button-container:has(.watchlist-button) .favorite-button {
+  display: none;
+}
+
 
 /* Different styling for playbutton */
 .play-button {
@@ -172,9 +182,6 @@
     font-size: 1.1em !important;
 }
 
-.detail-button, .favorite-button {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-}
 
 /* Hover Effects */
 .play-button:hover {
@@ -192,6 +199,11 @@
   background-color: #fff!important;
   transform: scale(1.05) !important;
   color: #ff0000 !important;
+}
+.slide .watchlist-button:hover {
+  background-color: #fff!important;
+  transform: scale(1.05) !important;
+  color: rgb(34, 197, 94) !important;
 }
 
 /* --- Navigation --- */
