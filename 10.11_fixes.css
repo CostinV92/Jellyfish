@@ -229,4 +229,47 @@ span.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-si
   font-weight: 600;
 }
 
+/*
+================================================================================
+|                               Dialog Theming
+================================================================================
+*/
+
+/* Dialog container */
+.MuiDialog-paper {
+  border-radius: 20px !important;
+  background: var(--secondary-accent-color) !important;
+  backdrop-filter: blur(100px);
+}
+
+/* Dialog title */
+.MuiDialogTitle-root {
+  font-weight: 700 !important;
+  padding-bottom: 0.5em !important;
+}
+
+/* Dialog body text */
+.MuiDialogContent-root,
+.MuiDialogContentText-root {
+  color: var(--text-color) !important;
+  font-weight: 500 !important;
+}
+
+/* Dialog actions bar */
+.MuiDialogActions-root {
+  padding: 1em 1.5em !important;
+}
+
+/* Buttons */
+.MuiDialogActions-root .MuiButton-text {
+  color: var(--text-color) !important;
+}
+
+/* Destructive buttons (Restart, Delete, etc) */
+.MuiDialogActions-root .MuiButton-containedError {
+  background: #f44336 !important;
+  color: white !important;
+  border-radius: 14px !important;
+  font-weight: 600;
+}
 
