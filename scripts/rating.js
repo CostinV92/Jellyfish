@@ -1,7 +1,6 @@
 /**
- * Efficiently applies rating attributes to media elements for CSS styling
- * Features: Performance optimization, error handling, mutation observer, and cleanup
- */
+ * Applies rating attributes to media elements and CSS styles to those element6
+*/
 (function() {
     'use strict';
 
