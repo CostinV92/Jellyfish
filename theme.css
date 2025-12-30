@@ -1498,6 +1498,21 @@ h3.tagline {
     transform: translateX(-3px) !important; /* Slight adjustment for visual alignment */
 }
 
+.mdl-slider::-webkit-slider-thumb {
+    color: var(--primary-accent-color) !important; /* Uses primary accent color */;
+}
+
+/* Firefox */
+.mdl-slider::-moz-range-thumb {
+    color: var(--primary-accent-color) !important; /* Uses primary accent color */;
+}
+
+/* Internet Explorer */
+
+.mdl-slider::-ms-thumb {
+    color: var(--primary-accent-color) !important; /* Uses primary accent color */;
+}
+
 /* Hover effect for the thumb */
 .mdl-slider-hoverthumb:hover::-webkit-slider-thumb {
     background: transparent !important;
