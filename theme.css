@@ -1499,27 +1499,27 @@ h3.tagline {
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    color: var(--primary-accent-color) !important; /* Uses primary accent color */;
+    background-color: var(--primary-accent-color) !important; /* Uses primary accent color */;
 }
 
 /* Firefox */
 .mdl-slider::-moz-range-thumb {
-    color: var(--primary-accent-color) !important; /* Uses primary accent color */;
+    background-color: var(--primary-accent-color) !important; /* Uses primary accent color */;
 }
 
 /* Internet Explorer */
 
 .mdl-slider::-ms-thumb {
-    color: var(--primary-accent-color) !important; /* Uses primary accent color */;
+    background-color: var(--primary-accent-color) !important; /* Uses primary accent color */;
 }
 
 /* Hover effect for the thumb */
 .mdl-slider-hoverthumb:hover::-webkit-slider-thumb {
-    background: transparent !important;
+    background: var(--primary-accent-color) !important;
 }
 
 .mdl-slider-hoverthumb:hover::-moz-range-thumb {
-    background: transparent !important;
+    background: var(--primary-accent-color) !important;
 }
 
 /* == "Up Next" Dialog Button Hover Effect == */
