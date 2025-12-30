@@ -1499,21 +1499,18 @@ h3.tagline {
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    color: var(--primary-accent-color);
-    background-color: var(--primary-accent-color);
+    background: var(--primary-accent-color);
 }
 
 /* Firefox */
 .mdl-slider::-moz-range-thumb {
-    color: var(--primary-accent-color);
-    background-color: var(--primary-accent-color);
+    background: var(--primary-accent-color);
 }
 
 /* Internet Explorer */
 
 .mdl-slider::-ms-thumb {
-    color: var(--primary-accent-color);
-    background-color: var(--primary-accent-color);
+    background: var(--primary-accent-color);
 }
 
 /* Hover effect for the thumb */
