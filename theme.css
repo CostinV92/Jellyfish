@@ -1499,31 +1499,29 @@ h3.tagline {
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    background: hsla(0, 0%, 100%, .2) !important;
+    color: var(--primary-accent-color);
     background-color: var(--primary-accent-color);
 }
 
 /* Firefox */
 .mdl-slider::-moz-range-thumb {
-    background: hsla(0, 0%, 100%, .2) !important;
+    color: var(--primary-accent-color);
     background-color: var(--primary-accent-color);
 }
 
 /* Internet Explorer */
 
 .mdl-slider::-ms-thumb {
-    background: hsla(0, 0%, 100%, .2) !important;
+    color: var(--primary-accent-color);
     background-color: var(--primary-accent-color);
 }
 
 /* Hover effect for the thumb */
 .mdl-slider-hoverthumb:hover::-webkit-slider-thumb {
-    background: hsla(0, 0%, 100%, .2) !important;
     background-color: var(--primary-accent-color);
 }
 
 .mdl-slider-hoverthumb:hover::-moz-range-thumb {
-    background: hsla(0, 0%, 100%, .2) !important;
     background-color: var(--primary-accent-color);
 }
 
